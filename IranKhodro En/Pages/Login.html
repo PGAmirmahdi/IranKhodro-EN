@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Login.css">
+    <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    <title>Login</title>
+</head>
+
+<body class="d-flex flex-column justify-content-center align-items-center">
+    <!-- Start of Body -->
+    <div class="No1 d-flex flex-column justify-content-center align-items-center">
+        <img src="../Img/User.png" alt="User" width="75px" height="75px">
+        <h3 class="text-white text-center mt-3 mb-3">Login</h3>
+        <div class="No2 d-flex row justify-content-center align-items-center">
+            <label for="">:Usename</label>
+            <input type="text" id="No1" placeholder="Type Usename" class="p-3">
+            <label for="">:Password</label>
+            <input type="password" id="No2" placeholder="Type Password" class="p-3">
+        </div>
+        <p id="warning">!Warning:Your CapsLock is On</p>
+        <div class="d-flex row justify-content-between align-items-center">
+            <button type="submit" class="btn btn-outline-light mt-2 ml-3" onclick="Login()">Submit</button>
+            <button type="button" class="btn btn-outline-light mt-2" onclick="Cancel()">Cancel</button>
+        </div>
+    </div>
+    <!-- End of Body -->
+
+    <!-- Start of Js -->
+    <script src="../js/Login.js"></script>
+    <!-- End of Js -->
+</body>
+
+</html>
